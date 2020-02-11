@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+
+}
+ul{
+    list-style-type: none;
+}
+.header {
+    border: 1px solid black;
+    background-color: #5f5f5f;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.header:hover{
+    padding: 0.5%;
+    transition: 2s;
+}
+.profil-image{
+    border-radius: 50%;
+  
+}
+.resume{
+    display: flex;
+}
+
+.main-content{
+
+    display: flex;
+    flex-direction: column;
+
+    border-left: 1px solid black;
+    padding: 2%;
+    flex: 3;
+}
+.skills {
+
+    flex: 1;
+    padding: 2%;
+}
+
